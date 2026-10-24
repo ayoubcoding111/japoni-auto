@@ -4,6 +4,8 @@ A one-page website for **Japoni Auto**, a car showroom in Algiers. It's a dark, 
 
 Built with **React 19 + Vite**, animated with **GSAP / ScrollTrigger** and smooth-scrolled with **Lenis**.
 
+**Live site:** https://japoni-auto-ten.vercel.app
+
 ![Hero: the showroom at night, with the BMW M3 and the JP mark](docs/screenshots/hero.png)
 
 ## Screenshots
@@ -47,6 +49,10 @@ npm run preview   # serve the production build locally
 ```
 
 The build uses a relative base (`./`), so `dist/` can be hosted from any folder, including GitHub Pages.
+
+## Deployment
+
+The site is hosted on Vercel and connected to this repository: every push to `main` deploys to production, and other branches get preview deployments.
 
 ## Editing content
 
