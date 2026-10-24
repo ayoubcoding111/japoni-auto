@@ -1,12 +1,12 @@
 # Japoni Auto
 
+![Loading screen: the JP mark draws itself, the headlights flicker while the showroom warms up, then the lights come on](docs/screenshots/intro.gif)
+
 A one-page website for **Japoni Auto**, a car showroom in Algiers. It's a dark, motion-led site that walks visitors from the hero car to the cars on the floor and finishes with an enquiry they can send on WhatsApp or by email.
 
 Built with **React 19 + Vite**, animated with **GSAP / ScrollTrigger** and smooth-scrolled with **Lenis**.
 
 **Live site:** https://japoni-auto-ten.vercel.app
-
-![Hero: the showroom at night, with the BMW M3 and the JP mark](docs/screenshots/hero.png)
 
 ## Screenshots
 
