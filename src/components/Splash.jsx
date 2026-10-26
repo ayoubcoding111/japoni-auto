@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import { markSplashGone, splashStart } from '../lib/motion';
 
-const MARK = 'M130 70H340M260 70V210A80 80 0 0 1 100 210M510 70H620A70 70 0 0 1 620 210H510M510 70V290';
+const MARK = 'M130 70V290M130 70H240A70 70 0 0 1 240 210H130M220 210L310 290M470 290V70L570 200L670 70V290';
 const STROKES = [
-  ['0.15s', 'M130 70H340'],
-  ['0.35s', 'M260 70V210A80 80 0 0 1 100 210'],
-  ['0.6s', 'M510 70V290'],
-  ['0.75s', 'M510 70H620A70 70 0 0 1 620 210H510'],
+  ['0.15s', 'M130 70V290'],
+  ['0.3s', 'M130 70H240A70 70 0 0 1 240 210H130'],
+  ['0.5s', 'M220 210L310 290'],
+  ['0.65s', 'M470 290V70L570 200L670 70V290'],
 ];
 
 /* The first screen: the mark draws itself, stays at least ~2s, then fades and hands over to the showroom loader. */
@@ -34,7 +34,7 @@ export default function Splash() {
           {STROKES.map(([d, path]) => <path key={d} pathLength="1" style={{ '--d': d }} d={path} />)}
         </g>
       </svg>
-      <p className="splash__name">Japoni Auto</p>
+      <p className="splash__name">Redline Motors</p>
     </div>
   );
 }

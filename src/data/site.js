@@ -1,12 +1,12 @@
 /* Showroom details. Fill these in once; anything left empty falls back to a neutral line and its button stays hidden.
-   whatsapp: international number, for example "+213 555 00 00 00". mapUrl: a Google Maps link to the showroom. */
+   whatsapp: international number, for example "+1 512 555 0100". mapUrl: a Google Maps link to the showroom. */
 export const SITE = {
-  phone: '+213 551 23 23 46',
-  whatsapp: '+213 551 23 23 46',
-  email: 'contact@japoniauto.com',
-  address: 'Showroom JAPONIAUTO, Alger, Algerie',
+  phone: '+1 512 555 0142',
+  whatsapp: '+1 512 555 0142',
+  email: 'contact@redlinemotors.com',
+  address: 'Redline Motors, Austin, Texas',
   hours: '',
-  mapUrl: 'https://www.google.com/maps/search/?api=1&query=Showroom+JAPONIAUTO+Alger+Algerie',
+  mapUrl: 'https://www.google.com/maps/search/?api=1&query=Redline+Motors+Austin+Texas',
 };
 
 export function val(k) { return String(SITE[k] || '').trim(); }

@@ -1,12 +1,12 @@
-# Japoni Auto
+# Redline Motors
 
-![Loading screen: the JP mark draws itself, the headlights flicker while the showroom warms up, then the lights come on](docs/screenshots/intro.gif)
+![Loading screen: the RM mark draws itself, the headlights flicker while the showroom warms up, then the lights come on](docs/screenshots/intro.gif)
 
-A one-page website for **Japoni Auto**, a car showroom in Algiers. It's a dark, motion-led site that walks visitors from the hero car to the cars on the floor and finishes with an enquiry they can send on WhatsApp or by email.
+A one-page website for **Redline Motors**, a car showroom in Austin, Texas. It's a dark, motion-led site that walks visitors from the hero car to the cars on the floor and finishes with an enquiry they can send on WhatsApp or by email.
 
 Built with **React 19 + Vite**, animated with **GSAP / ScrollTrigger** and smooth-scrolled with **Lenis**.
 
-**Live site:** https://japoni-auto-ten.vercel.app
+**Live site:** https://redline-motors-austin.vercel.app
 
 ## Screenshots
 
@@ -29,7 +29,7 @@ Built with **React 19 + Vite**, animated with **GSAP / ScrollTrigger** and smoot
 
 ## Features
 
-- **Splash and intro**: the JP mark draws itself, then the showroom "warms up". The headlights flicker while the hero image and fonts load, and the lights come up.
+- **Splash and intro**: the RM mark draws itself, then the showroom "warms up". The headlights flicker while the hero image and fonts load, and the lights come up.
 - **Smooth scrolling** with Lenis, plus scroll-driven reveals, a word-by-word lit statement, a velocity-boosted marquee and parallax.
 - **Car gallery**: pinned horizontal scroll on screens 1024px and wider, a stacked list below that. Click a card for its details.
 - **Enquiry flow**: picking "Enquire" on any car pre-selects it in the form. On submit the visitor gets the message written up, with buttons to send it on WhatsApp or by email, or to copy it. Nothing is sent to a server.

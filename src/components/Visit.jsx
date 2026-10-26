@@ -61,7 +61,7 @@ function Enquiry({ car, onCarChange, carHit }) {
     });
     if (badName) { nameRef.current.focus(); return; }
     if (badPhone) { phoneRef.current.focus(); return; }
-    const lines = ['New enquiry for Japoni Auto', '', 'Name: ' + name, 'Phone: ' + phone];
+    const lines = ['New enquiry for Redline Motors', '', 'Name: ' + name, 'Phone: ' + phone];
     if (car) lines.push('Car: ' + car);
     if (f.budget.trim()) lines.push('Budget: ' + f.budget.trim());
     if (f.note.trim()) lines.push('Message: ' + f.note.trim());

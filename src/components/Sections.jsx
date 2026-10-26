@@ -18,13 +18,13 @@ export function Marquee() {
   );
 }
 
-const STATEMENT = 'We find the car you want, prepare it properly and put the keys in your hand. Japoni Auto is a showroom for people who care how a car drives.';
+const STATEMENT = 'We find the car you want, prepare it properly and put the keys in your hand. Redline Motors is a showroom for people who care how a car drives.';
 
 export function Statement() {
   return (
     <section className="stmt">
       <div className="wrap">
-        <p className="eyebrow" data-r=""><span className="jp" lang="ja">自動車</span>The showroom</p>
+        <p className="eyebrow" data-r="">The showroom</p>
         <p className="stmt__text" data-scrub="" aria-label={STATEMENT}>
           {STATEMENT.split(' ').map((w, i) => <Fragment key={i}>{i > 0 && ' '}<span className="sw" aria-hidden="true">{w}</span></Fragment>)}
         </p>

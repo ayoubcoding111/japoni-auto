@@ -10,7 +10,7 @@ function SiteItem({ k, fallback, hideEmpty }) {
   return <li><a href={href || '#visit'} {...(href && k === 'address' ? ext : {})}>{v || fallback}</a></li>;
 }
 
-const WORD = 'japoni';
+const WORD = 'redline';
 const RADIUS = 80;          // pointer influence (css px)
 const GRAIN = 0.5;
 const K = 0.14, DAMP = 0.8; // spring
@@ -235,10 +235,10 @@ export default function Footer({ inert }) {
     >
       <canvas aria-hidden="true" ref={canvasRef}></canvas>
       <div aria-hidden="true" ref={grainRef}></div>
-      <span className="hwf-sr">Japoni Auto</span>
+      <span className="hwf-sr">Redline Motors</span>
       <div className="hwf-top">
         <div className="hwf-brand">
-          <strong>Japoni Auto</strong>
+          <strong>Redline Motors</strong>
           <span>©{new Date().getFullYear()} · Car showroom</span>
         </div>
         <nav className="hwf-col" aria-label="Explore">

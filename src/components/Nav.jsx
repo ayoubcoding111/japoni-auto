@@ -30,7 +30,7 @@ export default function Nav({ menuOpen, onToggle, burgerRef, inert }) {
 
   return (
     <header className={'nav' + (solid ? ' is-solid' : '') + (hidden ? ' is-hidden' : '')} id="nav" inert={inert}>
-      <a className="brand" href="#top" aria-label="Japoni Auto, back to top"><span>Japoni Auto</span></a>
+      <a className="brand" href="#top" aria-label="Redline Motors, back to top"><span>Redline Motors</span></a>
       <nav className="nav__links" aria-label="Primary">
         {LINKS.map(([href, label]) => <a key={href} className="nl" href={href}>{label}</a>)}
       </nav>

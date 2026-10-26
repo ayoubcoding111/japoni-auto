@@ -4,13 +4,13 @@ import bmwOff from '../assets/img/car-bmw-off.webp';
 import { CARS } from '../data/cars';
 import { Btn, Split, TLink } from './ui';
 
-const MARK = 'M130 70H340M260 70V210A80 80 0 0 1 100 210M510 70H620A70 70 0 0 1 620 210H510M510 70V290';
+const MARK = 'M130 70V290M130 70H240A70 70 0 0 1 240 210H130M220 210L310 290M470 290V70L570 200L670 70V290';
 const TITLE = 'Elevate Your Drive to Extraordinary Heights';
 const brands = new Intl.ListFormat('en-GB',{ type: 'conjunction' }).format([...new Set(CARS.map((c) => c.tag))].sort());
 
 export default function Hero() {
   return (
-    <section className="hero" aria-label="Japoni Auto showroom">
+    <section className="hero" aria-label="Redline Motors showroom">
       <div className="hero__bg"><img src={garage} alt="" width="1672" height="941" fetchPriority="high" /></div>
 
       <div className="hero__inner">
@@ -47,7 +47,7 @@ export default function Hero() {
           <TLink href="#cars">See the cars</TLink>
         </div>
 
-        <span className="hero__side" aria-hidden="true">Showroom · Alger</span>
+        <span className="hero__side" aria-hidden="true">Showroom · Austin</span>
 
         <div className="hero__foot">
           <span className="cue" data-in=""><i aria-hidden="true"></i>Scroll</span>
