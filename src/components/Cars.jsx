@@ -9,7 +9,7 @@ function Card({ car, onDetails, onEnquire }) {
   return (
     <article className={'card' + (car.photo ? ' card--photo' : '')} data-car="">
       <div className="card__stage" onClick={open}>
-        <img className="card__img" src={car.img} alt={car.alt} width="387" height="516" loading="lazy" />
+        <img className="card__img" src={car.img} alt={car.alt} width="1600" height="1000" loading="lazy" />
       </div>
       <div className="card__info">
         <div>

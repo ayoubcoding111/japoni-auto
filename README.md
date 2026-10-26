@@ -89,3 +89,14 @@ src/
     ├── motion.js        motion flags and shared scroll helpers
     └── useMotion.js     GSAP / ScrollTrigger / Lenis setup
 ```
+
+## Photo credits
+
+Car photos are from Wikimedia Commons, cropped and resized:
+
+| Car | Photo | Author | License |
+|---|---|---|---|
+| Ford Mustang GT | [2024 Ford Mustang GT 5.0 v8](https://commons.wikimedia.org/wiki/File:2024_Ford_Mustang_GT_5.0_v8.jpg) | Fercavanha | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| Chevrolet Corvette | [Chevrolet Corvette C8 Bahrain 2021](https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C8_Bahrain_2021.jpg) | Mohammed Hamad | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Tesla Model 3 | [2023 Tesla Model 3 Highland Long Range AWD](https://commons.wikimedia.org/wiki/File:2023_Tesla_Model_3_Highland_Long_Range_AWD.jpg) | Chanokchon | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Jeep Wrangler Rubicon | [Jeep Wrangler Rubicon (JL) 4xe](https://commons.wikimedia.org/wiki/File:Jeep_Wrangler_Rubicon_(JL)_4xe_1X7A0285.jpg) | Alexander Migl | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
